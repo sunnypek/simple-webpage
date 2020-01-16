@@ -18,7 +18,7 @@ $mail->Port = 465;                                    // TCP port to connect to
 $mail->setFrom('');
 $mail->addAddress('');               // Name is optional
 
-$mail->isHTML(true);                                  // Set email format to HTML
+$mail->isHTML(true);                                 // Set email format to HTML
 
 $mail->Subject = '';
 $mail->Body    = 'Email: ' . $_POST['Email'] . '<br/>Name: ' . $_POST['Name'] . '<br/>Message: ' . $_POST['Message'];
